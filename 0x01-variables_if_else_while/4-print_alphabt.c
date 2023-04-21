@@ -7,14 +7,16 @@
 */
 int main(void)
 {
-int n;
-
 char lowercase = 'a';
-while (lowercase <= 'a');
-if (lowercase != 'e' != 'q')
+while (lowercase <= 'z')
+{
+	if (lowercase != 'e' && != 'q')
 {
 purchar (lowercase);
 }
+lowercase++;
+}
+putchar ('\n');
 
 return (0);
 }
