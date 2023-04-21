@@ -7,16 +7,16 @@
 */
 int main (void)
 {
-char small_letters = 'a';
-char big_letters = 'A';
-while (small_letters <= 'z')
+char lowercase = 'a';
+char uppercase = 'A';
+while (lowercase <= 'z')
 {
-putchar ("small_letters");
-small_letters++;
+putchar ("lowercase");
+lowercase++;
 }
 {
-putchar ("big_letters");
-big_letters++;
+putchar ("uppercase");
+uppercase++;
 }
 putchar ("\n")
 return (0);
