@@ -1,10 +1,10 @@
 #include "main.h"
-#include <stuio.h>
+#include <stdio.h>
 
 /**
- * main - Prints a Fizz Buzz program
  *
- * Return: Always 0 (Success)
+ *
+ *
  */
 
 int main(void)
@@ -21,17 +21,4 @@ else if (x % 3 == 0)
 {
 printf("Fizz");
 }
-else if (x % 5 == 0)
-{
-printf("Buzz");
-}
-else
-{
-printf("%d", x);
-}
-printf(" ");
-}
-}
-printf("\n");
-return (0);
 }
