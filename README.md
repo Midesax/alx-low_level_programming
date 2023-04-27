@@ -1,1 +1,2 @@
-Let's learn some programming Language
+Debugging 101
+Debugging 101
