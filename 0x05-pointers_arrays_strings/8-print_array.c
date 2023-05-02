@@ -4,7 +4,7 @@
 /**
  * print_array - prints n element of an array of integer
  * @a: The array of integers
- * @n: Number of elements ... 
+ * @n: Number of elements ...
  * Return: Void
  */
 
