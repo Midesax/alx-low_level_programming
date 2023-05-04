@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
 * leet - encodes a string into 1337
@@ -10,7 +12,7 @@
 
 char *leet(char *str)
 {
-int i, j;
+int i; size_t j;
 char leet_char[] = "44337711";
 char leet_letter[] = "AEOTLaeotl";
 char *encoded_str = malloc(strlen(str) + 1);
