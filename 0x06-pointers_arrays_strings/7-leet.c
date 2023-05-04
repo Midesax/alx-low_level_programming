@@ -8,24 +8,21 @@
 * Return: the encoded string
 */
 
-char *leet(char *str) {
+char *leet(char *str)
+{
 int i, j;
 char leet_char[] = "44337711";
 char leet_letter[] = "AEOTLaeotl";
-char *encoded_str = malloc(strlen(str) + 1);
     
-for (i = 0; str[i] != '\0'; i++) {
-for (j = 0; j < strlen(leet_letter); j++) {
-if (str[i] == leet_letter[j]) {
-encoded_str[i] = leet_char[j];
-break;
-}
-else
+for (i = 0; str[i] != '\0'; i++)
 {
-encoded_str[i] = str[i];
+for (j = 0; j < 10; j++)
+{
+if (str[i] == leet_letter[j])
+{
+str[i] = leet_char[j];
 }
 }
 }
-encoded_str[i] = '\0';
-return encoded_str;
+return (str);
 }
