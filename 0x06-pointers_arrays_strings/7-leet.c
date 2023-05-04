@@ -16,7 +16,7 @@ char s[100];
 
 for (i = 0; str[i] != '\0'; i++)
 {
-for (j = 0; j < 100; j++)
+for (j = 0; j < 9; j++)
 {
 if (str[i] == leet_letter[j])
 {
