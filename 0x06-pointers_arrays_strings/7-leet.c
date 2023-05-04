@@ -5,22 +5,22 @@
 * @str: The string to be considered
 * @i: Integer variable for loop
 * @j: Integer variable for loop
-* Return: the encoded string
+* Return: The encoded string
 */
 
 char *leet(char *str)
 {
 int i, j;
-char leet_char[] = "44337711";
-char leet_letter[] = "AEOTLaeotl";
+char s1[] = "44337711";
+char s2[] = "AEOTLaeotl";
     
 for (i = 0; str[i] != '\0'; i++)
 {
 for (j = 0; j < 10; j++)
 {
-if (str[i] == leet_letter[j])
+if (str[i] == s2[j])
 {
-str[i] = leet_char[j];
+str[i] = s1[j];
 }
 }
 }
