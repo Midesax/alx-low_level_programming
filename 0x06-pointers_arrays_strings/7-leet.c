@@ -12,7 +12,7 @@ char *leet(char *str)
 int i, j;
 char leet_char[] = "44337711";
 char leet_letter[] = "AEOTLaeotl";
-char *encoded_str;
+char s[100];
 
 for (i = 0; str[i] != '\0'; i++)
 {
@@ -20,16 +20,16 @@ for (j = 0; j < 100; j++)
 {
 if (str[i] == leet_letter[j])
 {
-encoded_str[i] = leet_char[j];
+s[i] = leet_char[j];
 break;
 }
 else
 {
-encoded_str[i] = str[i];
+s[i] = str[i];
 }
 }
 }
-encoded_str[i] = '\0';
+s[i] = '\0';
     
-return (0);
+return (s);
 }
