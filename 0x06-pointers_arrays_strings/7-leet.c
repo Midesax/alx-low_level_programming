@@ -9,17 +9,14 @@
  */
 char *leet(char *str)
 {
-int i, j, len;
+int i, j;
 char leet_char[] = "44337711";
 char leet_letter[] = "AEOTLaeotl";
-char encoded_str[100];
-len = 0;
-while (str[len] != '\0' && len < 99)
-len++;
+char *encoded_str;
 
-for (i = 0; i < len; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
-for (j = 0; j < 11; j++)
+for (j = 0; j < 100; j++)
 {
 if (str[i] == leet_letter[j])
 {
@@ -33,5 +30,6 @@ encoded_str[i] = str[i];
 }
 }
 encoded_str[i] = '\0';
-return strdup(encoded_str);
+    
+return (0);
 }
