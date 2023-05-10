@@ -5,7 +5,7 @@
  * _strchr - Entry point
  * @c: Input
  * @s: Input
- * Return:  a pointer to the first occurrence of the character c in the string s,
+ * Return:  a pointer to the first occurrence of c in s,
  * or NULL if the character is not found
  */
 
